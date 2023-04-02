@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="SHform.css">
+</head>
+<body>
+
+    <div class="formBody">
+        <form>
+            <h1>Week1 Form Valid</h1>
+            <div>
+                <label for="Name">Name</label>
+                <Input placeholder="  type ur name" id="name" type="text"/>
+                <p class="nameError">Error! please input ur name in letters only</p>
+            </div>
+            <div>
+                <label for="Email Address">Email Address</label>
+                <Input  id="email" placeholder="  test@gmail.com"  type="text"/>
+                
+                <p class="EmailError">Error! please follow the proper email format</p>
+                
+            </div>
+            <div>
+                <label for="Phone Number">Phone Number</label>
+                <Input placeholder="  type  your phone Number" id="phoneNumber" type="text"/>
+                <p class="phoneError">Error! Please type numbers Only!</p>
+            </div>
+            <div>
+                <label>Gender</label>
+                <select name="" id="gender">
+                    <option value="">select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                
+                </select>
+                <p class="genderError">Error!  You need to select a Gender</p>
+                
+            </div>
+            <div>
+                <label for="Password">Passsword</label>
+                <Input placeholder="  type ur Password" id="password" type="password"/>
+                <p class="passwordError">Error ! </p>
+            </div>
+    
+            <div>
+                <button type="submit">Submit</button>
+                <div class="Submission">
+                    <p>Submission successful</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="SHform.js"></script>
+</body>
+</html> 
